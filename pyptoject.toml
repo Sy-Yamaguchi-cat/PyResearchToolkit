@@ -1,0 +1,23 @@
+[project]
+name = "pyrtoolkit"
+version = "0.0.1"
+description = "Toolkit library for managing Python code and results in research"
+readme = {
+    file = "README.md",
+    content-type = "text/markdown"
+}
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Seiya Yamaguchi", email = "sei.rm0307@gmail.com" },
+]
+keywords = ["research", "utility"]
+dependencies = [
+    "toml",
+]
+
+[scripts.urls]
+Repository = "https://github.com/Sy-Yamaguchi-cat/PyResearchToolkit"
+
+[project.scripts]
+save-meta = "pyrtoolkit.__main__:save_meta"
