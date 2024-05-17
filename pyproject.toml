@@ -2,10 +2,7 @@
 name = "pyrtoolkit"
 version = "0.0.1"
 description = "Toolkit library for managing Python code and results in research"
-readme = {
-    file = "README.md",
-    content-type = "text/markdown"
-}
+readme = "README.md"
 requires-python = ">=3.8"
 license = { file = "LICENSE" }
 authors = [
@@ -16,7 +13,7 @@ dependencies = [
     "toml",
 ]
 
-[scripts.urls]
+[project.urls]
 Repository = "https://github.com/Sy-Yamaguchi-cat/PyResearchToolkit"
 
 [project.scripts]
